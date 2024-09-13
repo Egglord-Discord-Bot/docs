@@ -37,8 +37,6 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: false,
         theme: {
@@ -52,7 +50,7 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'Egglord Docs',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -62,10 +60,10 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Documentation',
         },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/Spiderjockey02',
           label: 'GitHub',
           position: 'right',
         },
@@ -79,19 +77,19 @@ const config: Config = {
           items: [
             {
               label: 'Bot setup',
-              to: '/docs/intro',
+              to: '/docs/category/setting-up-egglord',
             },
             {
               label: 'Lavalink setup',
-              to: '/docs/intro',
+              to: '/docs/category/lavalink-setup',
             },
             {
               label: 'API Server setup',
-              to: '/docs/intro',
+              to: '/docs/category/api-server-setup',
             },
             {
               label: 'Auto poster & Notifications setup',
-              to: '/docs/intro',
+              to: '/docs/category/setting-up-auto-poster-and-notifications',
             }
           ],
         },
