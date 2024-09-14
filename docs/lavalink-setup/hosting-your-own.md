@@ -4,6 +4,8 @@ sidebar_position: 2
 
 # Hosting your own!
 
+Hosting your own Lavalink is highly recommended as you are not reliant on third-party providers, giving you complete control over performance, customization, and uptime. It allows you to optimize audio quality, scale resources as needed, and maintain better privacy, all while ensuring a more stable and cost-effective solution.
+
 ## 1. Prerequisites
 
 * **Java 11 or higher**: Lavalink requires Java to run, and Java 11 or higher is needed. You can download and install Java from [here](https://adoptium.net/).
@@ -57,7 +59,7 @@ Windows Firewall:
 In the node section of the config file you must now enter the IP (host), port (default 5000) and the password. 
 
 ## Additional Information
-### Support formats
+### Supported formats
 The set of sources where LavaPlayer can load tracks from is easily extensible, but the ones currently included by default are:
 
 * YouTube
@@ -80,7 +82,9 @@ The file formats that LavaPlayer can currently handle are (relevant for file/url
 * Stream playlists (M3U and PLS)
 
 ### Recommended plugins
-* [Skybot plugin](https://github.com/DuncteBot/skybot-lavalink-plugin)
-* [LavaSrc](https://github.com/topi314/LavaSrc)
-* [LavaSearch](https://github.com/topi314/LavaSearch)
-* [Youtube-source](https://github.com/lavalink-devs/youtube-source)
+* [Skybot plugin](https://github.com/DuncteBot/skybot-lavalink-plugin) - Add supports for the following: 
+  * Reddit, Text To Speech, TikTok, PornHub and more..
+* [LavaSrc](https://github.com/topi314/LavaSrc) - Add supports for the following:
+  * Spotify, Apple music, Deezer, Yandex.
+* [LavaSearch](https://github.com/topi314/LavaSearch) - More advanced searching on youtube request.
+* [Youtube-source](https://github.com/lavalink-devs/youtube-source) - Better youtube handling. 
