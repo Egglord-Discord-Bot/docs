@@ -3,10 +3,9 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Egglord Documentation',
+  tagline: 'Documentation to the best open source projects.',
   favicon: 'img/favicon.ico',
-
   // Set the production url of your site here
   url: 'https://docs.egglord.dev',
   // Set the /<baseUrl>/ pathname under which your site is served
@@ -37,6 +36,8 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
+          editUrl:
+            'https://github.com/Egglord-Discord-Bot/docs/tree/master/',
         },
         blog: false,
         theme: {
@@ -52,7 +53,7 @@ const config: Config = {
     navbar: {
       title: 'Egglord Docs',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Egglord Documentation Logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -117,6 +118,10 @@ const config: Config = {
               label: 'Dashboard',
               href: 'https://egglord.dev',
             },
+            {
+              label: 'Donation',
+              href: 'https://ko-fi.com/spiderjockey02'
+            }
           ],
         },
       ],
