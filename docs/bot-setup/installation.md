@@ -6,7 +6,15 @@ sidebar_position: 2
 
 ## 1. Prerequisites
 
-Node LTS, mongo setup
+Before starting we need to ensure a couple things are completed before carrying on with the installation guide. 
+
+### 1.1 Node.js
+First ensure Node.js LTS has been installed, this can be checked by running the command: `node -v`. If an error is displayed or it does not match the LTS on the node website it can be installed using the link below:
+* Node LTS - You can download [here](https://nodejs.org/en).
+
+### 1.2 Mongo DB
+
+If you haven't set up Mongo DB before there is a guide [here](/docs/bot-setup/setting-up-the-database) for setting it up.
 
 ## 2. Config file
 
