@@ -54,7 +54,7 @@ const config: Config = {
       title: 'Egglord Docs',
       logo: {
         alt: 'Egglord Documentation Logo',
-        src: 'img/logo.svg',
+        src: 'img/favicon.ico',
       },
       items: [
         {
