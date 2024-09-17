@@ -127,6 +127,32 @@ const config: Config = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Egglord.`,
     },
+    algolia: {
+      // The application ID provided by Algolia
+      appId: 'W6J7W1XFSM',
+
+      // Public API key: it is safe to commit it
+      apiKey: 'f30e00cf55b6668303d3456252c87d41',
+
+      indexName: 'egglord',
+
+      // Optional: see doc section below
+      contextualSearch: true,
+
+      // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
+      externalUrlRegex: 'external\\.com|domain\\.com',
+
+      // Optional: Algolia search parameters
+      searchParameters: {},
+
+      // Optional: path for search page that enabled by default (`false` to disable it)
+      searchPagePath: 'search',
+
+      // Optional: whether the insights feature is enabled or not on Docsearch (`false` by default)
+      insights: false,
+
+      //... other Algolia params
+    },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
