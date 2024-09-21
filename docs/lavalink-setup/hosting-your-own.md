@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Hosting your own!
+# Hosting your own
 
 Hosting your own Lavalink is highly recommended as you are not reliant on third-party providers, giving you complete control over performance, customization, and uptime. It allows you to optimize audio quality, scale resources as needed, and maintain better privacy, all while ensuring a more stable and cost-effective solution.
 

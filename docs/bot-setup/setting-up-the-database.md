@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Setting up the Database!
+# Setting up the Database
 
 The database natively used is [MongoDB](https://www.mongodb.com/). So you will need to [create an account](https://www.mongodb.com/try) for this step.
 

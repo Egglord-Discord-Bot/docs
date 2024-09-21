@@ -6,15 +6,19 @@ sidebar_position: 2
 
 ## 1. Prerequisites
 
+Before starting we need to ensure a couple things are completed before carrying on with the installation guide. 
+
+### 1.1 Node.js
+First ensure Node.js LTS has been installed, this can be checked by running the command: `node -v`. If an error is displayed or it does not match the LTS on the node website it can be installed using the link below:
 * Node LTS - You can download [here](https://nodejs.org/en).
+
+### 1.2 MySQL
+Next MySQL needs to be installed (This guide will not cover if installed on another machine as that only changes the connection string), this can be checked by running the command: `mysql`. If an error is displayed, it can be installed from the link below:
 * MySQL Server - You can download [here](https://dev.mysql.com/downloads/mysql/).
 
 ## 2. Backend 
 
-The backend folder is where the actual magic happens, data manipulation, ratelimting and handling requests.
-
-### Config file
-
+The backend folder is where the actual requests are handled for the API.
 The config file is located as the .env.example file and will contain the following:
 ```sh
 DATABASE_URL=""
@@ -33,11 +37,21 @@ weatherAPI=""     #https://www.weatherapi.com/my/
 debug=false
 ```
 :::warning
-Please remember to change the file to `.env` once finished to ensure the projects can correct import these values.
+Please remember to change the file to `.env` once finished to ensure the projects can correctly import these values.
 :::
 
-### 2.1 Session Secret
-Generating a session secret is a quite easy task to ensure the user's sessions are secure this can range from spamming your keyboard for a random alphanumerical string or you can use CLI to create a strong secret ensuring maximum security. Which this little guide will help go through.
+### 2.1 Database URL
+If unsure about the MySQL database URL, it will use the following structure:
+```sh
+mysql://<username>:<password>@<ip>:3306/<database>
+```
+:::warning
+Remember to remove the \<\> when typing in your credentials as you won't be able to connect if you do.
+:::
+
+
+### 2.2 Session Secret
+Generating a session secret is a quite easy task to ensure the user's sessions are secure this can range from spamming your keyboard for a random alphanumerical string or you can use a CLI like OpenSSL to create a strong secret ensuring maximum security. Which this little guide will help go through.
 
 Install OpenSSL
 
@@ -46,18 +60,15 @@ Run the command:
 openssl rand -base64 128
 ```
 
-### 2.2 Rainbow 6 Siege (R6) options
+### 2.3 Rainbow 6 Siege (R6) options
 
-The email and password you would enter is just your ubisoft login email and password.
+The email and password you would enter is your ubisoft login email and password.
 
-### 2.3 Steam 
+### 2.4 Steam 
 
 Steam API can only be used if the account has spent atleast 5 GBP (or equivelant) this ensures bots are not maliciosuly using the API.
 
-
 ## 3. Frontend
-
-### Config file
 
 The config file is located as the .env.example file and will contain the following:
 ```sh
