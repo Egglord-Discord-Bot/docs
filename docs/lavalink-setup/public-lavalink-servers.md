@@ -28,6 +28,7 @@ sidebar_position: 1
 
 | Host                         | port  | password               | Lavalink version | Plugins |
 |------------------------------|-------|------------------------|------------------|---------|
+| budget-us7.bot.heavencloud.in|  6706 | youshallnotpass        | 4                | YT,SPOTIFY|
 | 149.102.145.188              | 3003  | youshallnotpass        | 4                |         |
 | 167.179.133.36               | 8059  | youshallnotpass        | 4                |         |
 | 150.136.71.221               | 5000  | youshallnotpass        | 4                |         |
